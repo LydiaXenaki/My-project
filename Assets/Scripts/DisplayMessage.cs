@@ -28,7 +28,10 @@ public class DisplayMessage : MonoBehaviour
       messageText.gameObject.SetActive(false);
         bg.gameObject.SetActive(false);
     }
-
+    private void Update()
+    {
+     // if(Input.GetKeyDown(KeyCode.Tab))  messageText.gameObject.SetActive(!messageText.gameObject.activeSelf);
+    }
     public void Display_message_fuc(string textt)
     {
         print("aaaaa");
